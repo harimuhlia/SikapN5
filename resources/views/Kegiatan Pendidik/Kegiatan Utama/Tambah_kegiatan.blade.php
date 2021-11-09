@@ -72,7 +72,7 @@
           </select>
         </div>
          <!-- Main content -->
-    <section class="content">
+    {{-- <section class="content">
       <div class="row">
         <div class="col-md-12">
           <div class="card card-outline card-info">
@@ -104,15 +104,15 @@
         <!-- /.col-->
       </div>
       <!-- ./row -->
-    </section>
+    </section> --}}
     <!-- /.content -->
-        {{-- <div class="form-group">
+        <div class="form-group">
           <label>Input Kegiatan</label>
           <textarea class="form-control" name="kegiatan" rows="8" placeholder="Enter ..."></textarea>
         </div>
       </div>
         </div>
-        <!-- /.form-group --> --}}
+        <!-- /.form-group -->
         <div class="card-footer">
           <a href="{{ route('kegiatanpendidik.index') }}" class="btn btn-success btn-sm "><i class="fas fa-undo"></i> Kembali</a>
           <button type="submit" class="btn btn-primary btn-sm"><i class="fas fa-save"></i> Simpan</button>

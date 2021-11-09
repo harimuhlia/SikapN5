@@ -34,5 +34,8 @@
  <link rel="stylesheet" href="{{ asset('AdminLTE') }}/plugins/select2-bootstrap4-theme/select2-bootstrap4.min.css">
  <!-- Bootstrap4 Duallistbox -->
  <link rel="stylesheet" href="{{ asset('AdminLTE') }}/plugins/bootstrap4-duallistbox/bootstrap-duallistbox.min.css">
+ <!-- Quill Form Editor -->
+ <link href="{{ asset('AdminLTE') }}/assets/vendor/quill/quill.snow.css" rel="stylesheet">
+ <link href="{{ asset('AdminLTE') }}/assets/vendor/quill/quill.bubble.css" rel="stylesheet">
  <!-- Google Font: Source Sans Pro -->
  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">

@@ -50,6 +50,8 @@
 <script src="{{ asset('AdminLTE') }}/plugins/daterangepicker/daterangepicker.js"></script>
 <!-- bootstrap color picker -->
 <script src="{{ asset('AdminLTE') }}/plugins/bootstrap-colorpicker/js/bootstrap-colorpicker.min.js"></script>
+<!-- Quill Form Editor -->
+<script src="{{ asset('AdminLTE') }}/assets/vendor/quill/quill.min.js"></script>
 <!-- Bootstrap Switch -->
 <script src="{{ asset('AdminLTE') }}/plugins/bootstrap-switch/js/bootstrap-switch.min.js"></script>
 @yield('javascript')
