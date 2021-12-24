@@ -41,8 +41,8 @@
             </div>
             <div class="input-group mb-3">
                 <select name="role" id="" class="form-control">
-                    <option value="admin">Admin</option>
-                    <option value="kepala sekolah">Kepala Sekolah</option>
+                    {{-- <option value="admin">Admin</option>
+                    <option value="kepala sekolah">Kepala Sekolah</option> --}}
                     <option value="pendidik">Pendidik</option>
                     <option value="tendik">Tendik</option>
                 </select>

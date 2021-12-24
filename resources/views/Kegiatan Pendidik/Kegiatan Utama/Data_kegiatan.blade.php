@@ -58,7 +58,7 @@
           <th>Isi Kegiatan</th>
           <th>Volume</th>
           <th>Status</th>
-          <th>Author</th>
+          <th>Nama Lengkap</th>
           <th>Action</th>
         </tr>
         </thead>
@@ -83,12 +83,12 @@
           </td>
           <td>
             @if ($item->status == 'Diterima' || $item->status == 'Ditolak')
-            <a href="{{ route('tendikutama.show', $item->id) }}" class="btn btn-success btn-sm" title="Detail"><i class="fas fa-eye"></i></a>
-            <a href="{{ route('tendikutama.edit', $item->id) }}" class="btn btn-warning btn-sm disabled"><i class="fas fa-edit"></i></a>
+            <a href="{{ route('kegiatanpendidik.show', $item->id) }}" class="btn btn-success btn-sm" title="Detail"><i class="fas fa-eye"></i></a>
+            <a href="{{ route('kegiatanpendidik.edit', $item->id) }}" class="btn btn-warning btn-sm disabled"><i class="fas fa-edit"></i></a>
             <a href="#" class="btn btn-danger btn-sm disabled"><i class="fas fa-trash-alt"></i></a>
             @else
-            <a href="{{ route('tendikutama.show', $item->id) }}" class="btn btn-success btn-sm " title="Detail"><i class="fas fa-eye"></i></a>
-            <a href="{{ route('tendikutama.edit', $item->id) }}" class="btn btn-warning btn-sm "><i class="fas fa-edit"></i></a>
+            <a href="{{ route('kegiatanpendidik.show', $item->id) }}" class="btn btn-success btn-sm " title="Detail"><i class="fas fa-eye"></i></a>
+            <a href="{{ route('kegiatanpendidik.edit', $item->id) }}" class="btn btn-warning btn-sm "><i class="fas fa-edit"></i></a>
             <a href="#" class="btn btn-danger btn-sm "><i class="fas fa-trash-alt"></i></a>
             @endif
           </td>
@@ -104,6 +104,7 @@
             <th>Isi Kegiatan</th>
             <th>Volume</th>
             <th>Status</th>
+            <th>Nama Lengkap</th>
             <th>Action</th>
         </tr>
         </tfoot>
